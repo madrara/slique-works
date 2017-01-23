@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.flash.superkatale.All_Categories"
+    android:weightSum="1">
+
+
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="25dp"
+         android:background="#4DB6AC"
+    android:paddingRight="25dp"
+    android:paddingBottom="25dp"
+        android:layout_weight="1.45">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Bread &amp; Bakery"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/btnBreadandBakery"
+        android:layout_above="@+id/CannedandJarred"
+        android:layout_alignLeft="@+id/CannedandJarred"
+        android:layout_alignStart="@+id/CannedandJarred" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Canned &amp; Jarred"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/CannedandJarred"
+        android:layout_below="@+id/DryandBaking"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Beaverages"
+        android:id="@+id/Beaverages"
+        android:textColor="#009688"
+        android:background="@drawable/rounded_corner"
+        android:textStyle="bold"
+        android:layout_above="@+id/button11"
+        android:layout_toLeftOf="@+id/button11"
+        android:layout_toStartOf="@+id/button11" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Dairy"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/DairyandMeat"
+        android:layout_above="@+id/Beaverages"
+        android:layout_toRightOf="@+id/btnCleaners"
+        android:layout_toEndOf="@+id/btnCleaners" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Dry &amp; Baking"
+        android:id="@+id/DryandBaking"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:layout_above="@+id/Beaverages"
+        android:layout_toLeftOf="@+id/Beaverages"
+        android:layout_toStartOf="@+id/Beaverages" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Cleaners &amp; Paper"
+        android:id="@+id/btnCleaners"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:layout_above="@+id/button11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Personal Care"
+        android:id="@+id/button11"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:layout_alignTop="@+id/btnMeat"
+        android:layout_toRightOf="@+id/btnMeat"
+        android:layout_toEndOf="@+id/btnMeat" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Others"
+        android:id="@+id/btnOthers"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:layout_alignTop="@+id/btnMeat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="super market name"
+        android:id="@+id/txtspmkt_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="super market ID"
+        android:id="@+id/txtspmkt_id"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Meat"
+        android:id="@+id/btnMeat"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginBottom="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/DairyandMeat"
+        android:layout_alignStart="@+id/DairyandMeat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Shopping Just Got Better!!!"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/txtspmkt_name"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</LinearLayout>

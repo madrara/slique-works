@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/feed_bg"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom" >
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BREAD-ID"
+         android:visibility="gone"
+        android:id="@+id/txid"
+         android:layout_below="@+id/tximageurl"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentEnd="true" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_vertical" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BREAD-PRICE"
+        android:id="@+id/txprice"
+            android:textColor="#000000"
+            android:layout_below="@+id/txdescription"
+            android:layout_alignRight="@+id/txdescription"
+            android:layout_alignEnd="@+id/txdescription" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:src="@drawable/ic_add_shopping_cart_black_24dp"
+            android:layout_gravity="right"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="BREAD_DESCRIPTION"
+        android:id="@+id/txdescription"
+            android:textColor="#F06292"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView4"
+            android:layout_toEndOf="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Url"
+        android:id="@+id/tximageurl"
+        android:visibility="gone"
+        android:layout_below="@+id/txprice"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRICE:"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/txdescription"
+            android:layout_toRightOf="@+id/imageView4"
+            android:layout_toEndOf="@+id/imageView4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Description!"
+            android:maxLines="1"
+            android:id="@+id/txtfulldescription"
+            android:textColor="#F06292"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(UGS)"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/txdescription"
+            android:layout_toRightOf="@+id/txprice"
+            android:layout_toEndOf="@+id/txprice" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image Url"
+            android:gravity="center"
+            android:id="@+id/txturl"
+            android:layout_below="@+id/txtfulldescription"
+            android:layout_alignLeft="@+id/txid"
+            android:layout_alignStart="@+id/txid" />
+    </RelativeLayout>
+
+</LinearLayout>
