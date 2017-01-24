@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cartbolt.qui.screens.Login">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            S<ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/cartboltlogo" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Cartbolt"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/blue" />
+
+
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="12sp"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/startemail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="user@cartbolt.com"
+                    android:textSize="14sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="password"
+                    android:textSize="12sp"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/startpassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:password="true"
+                    android:hint="password"
+                    android:textSize="14sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/loginsubmit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:text="LOGIN"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewsgn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Not yet a member! Signup here"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/darkgrey" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

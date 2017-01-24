@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="2dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingBottom="2dp"
+    android:background="#FFF"
+    tools:context=".drawer.OrdersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFF"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/listvieworders"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+</FrameLayout>

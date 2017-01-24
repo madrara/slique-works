@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="cartbolt.qui.screens.About">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blackgrey" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blackgrey"
+            android:orientation="vertical"
+            android:padding="16dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:padding="15dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/darkgrey"
+                    android:orientation="vertical"
+                    android:paddingBottom="1dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFF"
+                        android:gravity="center_horizontal"
+                        android:text="About us"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WE ARE YOUR BEST ONLINE CONNECTION TO YOUR RETAILER." />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/darkgrey"
+                    android:text="We are an online shopping and delivery service that connects customers to their favorite outlets. We have about four different types of outlets. And they include; Markets, Pharmacies, Hardware. With affordable prices, wide range of outlets, the finest products and very time conscience delivery service, Cartbolt lets you enjoy the a transparent, fun and quick shopping experience.
+CARTBOLT was launched in September, 2015. We are continuously availing and expanding the outlets base on Cartbolt, so as to give the cartbolt family an unlimited shopping experience.
+"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WE AIM AT AVAILING THE HOME NECCESITIES A FEW CLICKS CLOSE TO OUR CUSTOMERS." />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/darkgrey"
+                    android:orientation="vertical"
+                    android:paddingBottom="1dp" >
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFF"
+                        android:gravity="center_horizontal"
+                        android:text="Why Cartbolt"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONVIENCE" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:textColor="@color/darkgrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cartbolt aims at making shopping very convenient and a lot easy for our cartbolt users and family."
+                    android:textAppearance="?android:attr/textAppearanceSmall"  />
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TIME SAVING" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:textColor="@color/darkgrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="At Cartbolt time is KEY and we treasure our customers time. So that’s why we do our shopping and delivery on time."
+                    android:textAppearance="?android:attr/textAppearanceSmall"  />
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AFFORDABLE" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:textColor="@color/darkgrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="we are very affordable and very price considerate towards our family members and we also are fair."
+                    android:textAppearance="?android:attr/textAppearanceSmall"  />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
